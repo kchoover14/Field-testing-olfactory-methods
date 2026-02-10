@@ -1,4 +1,5 @@
-library(readxl); library(ordinal); library(MASS); library(BSDA)
+library(readxl); library(ordinal); library(MASS); library(BSDA); library(effects)
+
 
 #load data
 field <- read_excel("data-field methods.xlsx", sheet="clm.field")

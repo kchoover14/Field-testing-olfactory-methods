@@ -1,5 +1,5 @@
 library(readxl); library(dplyr)
-library(ggplot2); library(gridExtra)
+library(ggplot2); library(gridExtra); library(ggpubr)
 
 #load data
 con.field=read_excel("data-field methods.xlsx", sheet="con.field")
@@ -9,21 +9,27 @@ con.lab=read_excel("data-field methods.xlsx", sheet="con.lab")
 con.field$Sex <- factor(con.field$Sex)
 con.lab$Sex <- factor(con.lab$Sex)
 
-#Wilcox/MannU field
+###############Wilcox/MannU field
 wilcox.test(Consistencyn ~ Sex, data=con.field,
   correct = TRUE, conf.int=TRUE, conf.level=0.95)
 #summarize field by sex
 con.field %>%
-  group_by(Sex) %>%
-  summarise(count=sum(Consistencyn))
+    group_by(Sex) %>%
+    summarise(count=sum(Consistencyn))
 
-#wilcox/MannU lab
+#plot
+ggplot(con.field, aes(x=Odor, y=Consistencyn, fill=Sex)) +
+    geom_bar(stat="identity") +
+    theme_classic2()
+
+################wilcox/MannU lab
 wilcox.test(Consistencyn ~ Sex, data=con.lab,
   correct = TRUE, conf.int=TRUE, conf.level=0.95)
 #summarize field by sex
 con.lab %>%
   group_by(Sex) %>%
   summarise(count=sum(Consistencyn))
+
 
 #Figure 6
 con.field.sum <- con.field %>%
