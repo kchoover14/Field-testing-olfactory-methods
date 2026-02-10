@@ -2,7 +2,7 @@
 Field-testing olfactory ability to understand human olfactory ecology
 The data and scripts are deposited for use in replicating results of anaylsis for: Hoover KC, Roberts J, Botescu D, Piotr Fedurek, Aarts S, Berbesque JC. Field-testing olfactory ability to understand human olfactory ecology. American Journal of Human Biology. https://doi.org/10.1002/ajhb.23411 
 
-If using data or scripts for any purpose, please cite the above publication.
+If using data or scripts for any purpose, please cite the above publication (which is also located in this repository).
 
 data-raw data: these data derive from field data collection sheets and were processed to generate data-kappa and data-field methods
 data-kappa: these data (4 sheets) are tests for agreement between observers coding participant responses to odors
