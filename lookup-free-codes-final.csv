@@ -1,0 +1,251 @@
+Free,Odor,Code,Flag,Note
+acidic,fish,OdorQuality,FALSE,sensory descriptor
+amonia,fish,OdorQuality,FALSE,chemical descriptor
+awful,fish,Valence,FALSE,pure affective
+bad smell,fish,Valence,FALSE,pure affective
+compost,fish,Associative,FALSE,non-food environmental association
+fish,fish,Source,FALSE,correct
+fish and wood,fish,Source+Associative,FALSE,source fish + associative wood
+fish fish oil,fish,Source+FoodPersonal,FALSE,source fish + food personal fish oil
+fish food,fish,Source+FoodPersonal,FALSE,source fish + food personal
+fish oil,fish,FoodPersonal,FALSE,personal food/health product
+fish sauce,fish,Source+FoodPersonal,FALSE,source fish + food personal condiment
+fish soup,fish,Source+FoodPersonal,FALSE,source fish + food personal
+fish thai/dried shrimp,fish,Source+FoodPersonal,FALSE,source fish + food personal
+fishy,fish,Source,FALSE,correct modifier
+garlic,fish,FoodPersonal,TRUE,CONTEXT: FoodPersonal for fish - handle in R
+glue,fish,Associative,FALSE,non-food product association
+ham,fish,FoodPersonal,FALSE,personal food association
+light scent,fish,OdorQuality,FALSE,intensity descriptor
+meat,fish,FoodPersonal,FALSE,personal food association
+musty not nice,fish,OdorQuality+Valence,FALSE,odor quality + valence
+no smell,fish,NoDetect,FALSE,not detected
+none,fish,NoDetect,FALSE,not detected
+not good,fish,Valence,FALSE,pure affective
+"not good smell, something I don't like",fish,Valence,FALSE,pure affective
+"not pleasant, wet cloth",fish,Valence+Associative,FALSE,valence + associative wet cloth
+not too pleasant decaying,fish,Valence+OdorQuality,FALSE,valence + odor quality decaying
+not very nice not as strong as the other,fish,Valence+OdorQuality,FALSE,valence + intensity
+old shrimp,fish,FoodPersonal,FALSE,personal food association
+onion,fish,FoodPersonal,FALSE,personal food association
+pickle onion,fish,FoodPersonal,FALSE,personal food association
+poo,fish,Associative,FALSE,non-food association
+prawns,fish,FoodPersonal,FALSE,personal food association - seafood not fish family
+rotting flesh,fish,Associative,FALSE,non-food association
+savoury,fish,OdorQuality,FALSE,sensory/flavor quality descriptor
+seafood,fish,FoodPersonal,FALSE,personal food - cultural grouping not fish family
+smoke/meat,fish,OdorQuality+FoodPersonal,FALSE,smoke=OdorQuality meat=FoodPersonal
+smoked bacon,fish,FoodPersonal,FALSE,personal food association
+"stinks, BBQ, beans",fish,Valence+FoodPersonal,FALSE,valence stinks + food personal BBQ/beans
+thai chinese fish dried shrimp,fish,Source+FoodPersonal,FALSE,source fish + food personal
+"uncomfortable, bad, oily",fish,Valence+OdorQuality,FALSE,valence + odor quality oily
+unpleasant,fish,Valence,FALSE,pure affective
+unpleasant musk,fish,Valence+OdorQuality,FALSE,valence + odor quality musk
+woody musky,fish,Associative+OdorQuality,FALSE,woody=Associative musky=OdorQuality
+abrasive sharp pungent,garlic,OdorQuality,FALSE,sensory descriptors
+"anchovies, fish, garlic",garlic,Source+FoodPersonal,FALSE,source garlic + food personal anchovies/fish
+cheese,garlic,FoodPersonal,FALSE,personal food association
+cheese and onion,garlic,FoodPersonal,FALSE,personal food association
+cheese and onion crisps,garlic,FoodPersonal,FALSE,personal food association
+"chinese food, onion",garlic,FoodPersonal,FALSE,personal food association
+chives onion,garlic,FoodPersonal,FALSE,personal food association
+"earthy, not pleasant none",garlic,OdorQuality+Valence,FALSE,odor quality earthy + valence
+"familiar, not sure, abrasive, nicopen",garlic,OdorQuality+Associative,FALSE,abrasive=OdorQuality nicopen=Associative
+"familiar, spice, like in beef jerky, paprika",garlic,FoodPersonal,FALSE,personal food association
+flowery gross flower,garlic,Associative+Valence,FALSE,associative floral not generic for garlic + valence gross
+food,garlic,FoodPersonal,FALSE,generic food reference
+"food, garlic",garlic,Source,FALSE,source garlic
+garbage,garlic,Associative,FALSE,non-food association
+garlic,garlic,Source,FALSE,correct
+garlic and onion,garlic,Source+FoodPersonal,FALSE,source garlic + food personal onion
+garlic chive onion,garlic,Source+FoodPersonal,FALSE,source garlic + food personal
+garlic unpleasant,garlic,Source+Valence,FALSE,source + valence
+garlicy,garlic,Source,FALSE,correct modifier
+"garlicy, onion",garlic,Source+FoodPersonal,FALSE,source + food personal onion
+ham,garlic,FoodPersonal,FALSE,personal food association
+ham cheese onion,garlic,FoodPersonal,FALSE,personal food association
+herby pungeant,garlic,FoodGeneric+OdorQuality,FALSE,herby=FoodGeneric for garlic + pungent=OdorQuality
+industrial glue,garlic,Associative,FALSE,non-food product association
+leather,garlic,Associative,FALSE,non-food product association
+"leather, wood, smokey",garlic,Associative+OdorQuality,FALSE,associative leather/wood + odor quality smokey
+maybe meat & tomatoes,garlic,FoodPersonal,FALSE,personal food association
+meaty,garlic,FoodPersonal,FALSE,personal food association
+mustard,garlic,FoodPersonal,FALSE,personal food association
+no idea,garlic,NoLabel,FALSE,detected but cant name
+no smell,garlic,NoDetect,FALSE,not detected
+none,garlic,NoDetect,FALSE,not detected
+onion,garlic,FoodPersonal,FALSE,personal food association
+pickle,garlic,FoodPersonal,FALSE,personal food association
+pungent unpleasant,garlic,OdorQuality+Valence,FALSE,odor quality + valence
+roast beef crisps,garlic,FoodPersonal,FALSE,personal food association
+sharp herby pungeant,garlic,FoodGeneric+OdorQuality,FALSE,herby=FoodGeneric + sharp/pungent=OdorQuality
+smokey,garlic,OdorQuality,FALSE,sensory quality descriptor
+strange medicine hospital,garlic,Associative,FALSE,non-food place association
+strong ammonia,garlic,OdorQuality,FALSE,chemical quality descriptor
+uncomfortable rubber/leather,garlic,Valence+Associative,FALSE,valence uncomfortable + associative rubber/leather
+vinegar familiar,garlic,OdorQuality,FALSE,vinegar=OdorQuality drop familiar
+wood,garlic,Associative,FALSE,personal/environmental association
+I liked it; close to lemon,orange,Valence+FoodGeneric,FALSE,valence I liked it + generic lemon
+"acidic, citric",orange,OdorQuality+FoodGeneric,FALSE,acidic=OdorQuality citric=FoodGeneric
+berries,orange,FoodPersonal,FALSE,personal food association
+chewing gum,orange,FoodPersonal,FALSE,personal food/product association
+"chewing gum, sweet perfume fruity",orange,FoodPersonal+OdorQuality+FoodGeneric+Associative,FALSE,chewing gum=FoodPersonal sweet=OdorQuality fruity=FoodGeneric perfume=Associative
+citric,orange,FoodGeneric,FALSE,citrus family
+"citric, lime, lemon",orange,FoodGeneric+FoodPersonal,FALSE,citric=FoodGeneric lime/lemon=FoodPersonal
+"citric, orange, lemon",orange,Source+FoodGeneric+FoodPersonal,FALSE,source orange + generic citric + personal lemon
+citrus,orange,FoodGeneric,FALSE,citrus family
+citrus lime/lemon/orange,orange,Source+FoodGeneric+FoodPersonal,FALSE,source orange + generic citrus + personal lime/lemon
+citrusy,orange,FoodGeneric,FALSE,citrus family
+citrusy grapefruit,orange,FoodGeneric+FoodPersonal,FALSE,citrusy=FoodGeneric grapefruit=FoodPersonal
+citrusy orange,orange,Source+FoodGeneric,FALSE,source orange + generic citrusy
+citrusy slightly floral orange blossom,orange,Source+FoodGeneric+Associative,FALSE,source orange + generic citrusy/floral + associative orange blossom
+citrusy sweet,orange,FoodGeneric+OdorQuality,FALSE,citrusy=FoodGeneric sweet=OdorQuality
+coca cola,orange,FoodPersonal,FALSE,personal food/brand association
+"coca cola, haribo",orange,FoodPersonal,FALSE,personal food/brand associations
+dill,orange,FoodPersonal,FALSE,personal food association
+faint,orange,OdorQuality,FALSE,intensity descriptor
+fragrant,orange,OdorQuality,FALSE,sensory quality descriptor
+fruit strawberry pineapple,orange,FoodGeneric+FoodPersonal,FALSE,fruit=FoodGeneric strawberry/pineapple=FoodPersonal
+fruity,orange,FoodGeneric,FALSE,fruit family
+fruity-tropical,orange,FoodGeneric+FoodPersonal,FALSE,fruity=FoodGeneric tropical=FoodPersonal
+"herby, mint",orange,FoodPersonal,FALSE,personal food associations for orange
+lavendar,orange,Associative,FALSE,non-food personal product association for orange
+lemon,orange,FoodGeneric,FALSE,citrus family - botanically related to orange
+lemon pineapple cherry,orange,FoodGeneric+FoodPersonal,FALSE,lemon=FoodGeneric pineapple/cherry=FoodPersonal
+"lemon, chewing gum",orange,FoodGeneric+FoodPersonal,FALSE,lemon=FoodGeneric chewing gum=FoodPersonal
+"lemon, citrus orange",orange,Source+FoodGeneric+FoodPersonal,FALSE,source orange + generic citrus + personal lemon
+"lime, orange",orange,Source+FoodPersonal,FALSE,source orange + food personal lime
+mandarin,orange,FoodGeneric,FALSE,citrus family - botanically related to orange
+maybe flavoured chocolate,orange,FoodPersonal,FALSE,personal food association
+mint (not sure--don't think that's right!),orange,FoodPersonal,FALSE,personal food/product for orange
+no smell,orange,NoDetect,FALSE,not detected
+none,orange,NoDetect,FALSE,not detected
+ointment-like you would find in a spa,orange,Associative,FALSE,non-food place/product association
+onion,orange,FoodPersonal,FALSE,personal food association
+orange,orange,Source,FALSE,correct
+orange and chocolate,orange,Source+FoodPersonal,FALSE,source orange + food personal chocolate
+orange citrusy,orange,Source+FoodGeneric,FALSE,source orange + generic citrusy
+orange coffee,orange,Source+FoodPersonal,FALSE,source orange + food personal coffee
+orange fruity,orange,Source+FoodGeneric,FALSE,source orange + generic fruity
+orange or bergamot,orange,Source+Associative,FALSE,source orange + associative bergamot
+orange with chocolate,orange,Source+FoodPersonal,FALSE,source orange + food personal chocolate
+"orange, fruit",orange,Source+FoodGeneric,FALSE,source orange + generic fruit
+oranges,orange,Source,FALSE,correct
+pear,orange,FoodPersonal,FALSE,personal food association
+peppermint,orange,FoodPersonal,TRUE,CONTEXT: FoodPersonal for orange - handle in R
+pickle,orange,FoodPersonal,FALSE,personal food association
+pineapple,orange,FoodPersonal,FALSE,personal food association
+raspberry,orange,FoodPersonal,FALSE,personal food association
+rose,orange,FoodPersonal,TRUE,CONTEXT: FoodPersonal for orange - handle in R
+sauna smell,orange,Associative,FALSE,non-food place association
+smell but none,orange,NoLabel,FALSE,detected but cant name
+sweet,orange,OdorQuality,FALSE,sensory quality descriptor
+sweet cherry,orange,OdorQuality+FoodPersonal,FALSE,sweet=OdorQuality cherry=FoodPersonal
+sweet chocolatey,orange,OdorQuality+FoodPersonal,FALSE,sweet=OdorQuality chocolatey=FoodPersonal
+sweet fruity,orange,OdorQuality+FoodGeneric,FALSE,sweet=OdorQuality fruity=FoodGeneric
+sweet like apple,orange,OdorQuality+FoodPersonal,FALSE,sweet=OdorQuality apple=FoodPersonal
+sweet subtle spice,orange,OdorQuality+FoodPersonal,FALSE,sweet=OdorQuality spice=FoodPersonal
+sweeter,orange,OdorQuality,FALSE,intensity descriptor
+sweets,orange,FoodPersonal,FALSE,personal food association
+vanilla ice cream,orange,FoodPersonal,FALSE,personal food association
+wood,orange,Associative,FALSE,personal/environmental association
+aniseed,peppermint,FoodPersonal,FALSE,personal food association
+barely can smell weak sweet,peppermint,OdorQuality,FALSE,intensity descriptors
+butterscotch,peppermint,FoodPersonal,FALSE,personal food association
+chewing gum,peppermint,FoodPersonal,FALSE,personal food/product association
+"chewing gum, cinnamon",peppermint,FoodPersonal,FALSE,personal food associations
+coffee/chocolate,peppermint,FoodPersonal,FALSE,personal food associations
+don't know,peppermint,NoLabel,FALSE,detected but cant name
+"don't know, but did smell it",peppermint,NoLabel,FALSE,detected but cant name
+familiar,peppermint,NoLabel,FALSE,detected but cant name
+flower,peppermint,Associative,FALSE,associative - not FoodGeneric for peppermint
+menthol,peppermint,FoodGeneric,FALSE,menthol family - chemical generic for peppermint
+"menthol, chewing gum",peppermint,FoodGeneric+FoodPersonal,FALSE,menthol=FoodGeneric chewing gum=FoodPersonal
+mento,peppermint,Source+Associative,FALSE,source via brand name - personal association
+methol,peppermint,FoodGeneric,FALSE,typo for menthol - chemical generic
+mint,peppermint,FoodGeneric,FALSE,mint family - generic for peppermint
+mint peppermint,peppermint,Source,FALSE,modifier + correct term
+mint unsure,peppermint,FoodGeneric,FALSE,mint family with uncertainty
+"mint, chewing gum",peppermint,FoodGeneric+FoodPersonal,FALSE,mint=FoodGeneric chewing gum=FoodPersonal
+"mint, menthol",peppermint,FoodGeneric,FALSE,mint/menthol family
+"minty, peppermint",peppermint,Source,FALSE,modifier + correct term
+minty/menthol,peppermint,Source,FALSE,correct for peppermint
+no smell,peppermint,NoDetect,FALSE,not detected
+none,peppermint,NoDetect,FALSE,not detected
+not food alcohol-based,peppermint,OdorQuality,FALSE,chemical quality descriptor
+orange,peppermint,FoodPersonal,TRUE,CONTEXT: FoodPersonal for peppermint - handle in R
+peppermint,peppermint,Source,FALSE,correct
+peppermint but stronger,peppermint,Source,FALSE,modifier + correct term
+peppermint mint,peppermint,Source,FALSE,modifier + correct term
+peppermint tea,peppermint,Source+FoodPersonal,FALSE,source peppermint + food personal tea
+"peppermint, mint",peppermint,Source,FALSE,modifier + correct term
+peppermint/mint,peppermint,Source,FALSE,correct
+pleasant fruity orangey,peppermint,Valence+FoodGeneric+FoodPersonal,FALSE,valence pleasant + generic fruity + personal orangey
+rose,peppermint,FoodPersonal,TRUE,CONTEXT: FoodPersonal for peppermint - handle in R
+tiger balm stuff,peppermint,Associative,FALSE,non-food product association
+vanilla,peppermint,FoodPersonal,FALSE,personal food association
+washing up liquid citrus,peppermint,Associative+FoodGeneric,FALSE,washing up liquid=Associative citrus=FoodGeneric
+wood,peppermint,Associative,FALSE,personal/environmental association
+I like it; like fresh bed linen,rose,Valence+Associative,FALSE,valence I like it + associative bed linen
+air freshener fresh air,rose,Associative,FALSE,non-food product association
+amoniac,rose,OdorQuality,FALSE,chemical quality descriptor
+arabica coffee; sweet,rose,FoodPersonal+OdorQuality,FALSE,arabica coffee=FoodPersonal sweet=OdorQuality
+barely no smell none,rose,NoDetect,FALSE,not detected
+berries,rose,FoodPersonal,FALSE,personal food association
+chemical toilet/air cleaner,rose,Associative,FALSE,non-food product association
+"chewing gum, cinnamon",rose,FoodPersonal,FALSE,personal food associations
+citric/smokey,rose,FoodGeneric+OdorQuality,FALSE,citric=FoodGeneric smokey=OdorQuality
+clean,rose,Associative,FALSE,non-food environmental association
+cleaning products,rose,Associative,FALSE,non-food product association
+"familiar, not sure, earthy",rose,OdorQuality,FALSE,earthy=OdorQuality drop familiar/not sure
+floral,rose,FoodGeneric,FALSE,floral family - generic for rose
+floral daffodils lavendar,rose,FoodGeneric+Associative,FALSE,floral=FoodGeneric daffodils/lavender=Associative
+floral flower with strong smell but not color,rose,FoodGeneric+OdorQuality,FALSE,floral/flower=FoodGeneric strong smell=OdorQuality
+flower,rose,FoodGeneric,FALSE,floral family - generic for rose
+flower but not rose,rose,FoodGeneric,FALSE,generic - knows its not rose
+flower/not food,rose,FoodGeneric,FALSE,generic floral
+flowery,rose,FoodGeneric,FALSE,floral family - generic for rose
+flowery perfume,rose,FoodGeneric+Associative,FALSE,flowery=FoodGeneric perfume=Associative
+"flowery, rose",rose,Source+FoodGeneric,FALSE,source rose + generic flowery
+flowery/lavender,rose,FoodGeneric+Associative,FALSE,flowery=FoodGeneric lavender=Associative
+fragrant,rose,OdorQuality,FALSE,sensory quality descriptor
+fruit sweet,rose,FoodGeneric+OdorQuality,FALSE,fruit=FoodGeneric sweet=OdorQuality
+"fruit, berries",rose,FoodGeneric+FoodPersonal,FALSE,fruit=FoodGeneric berries=FoodPersonal
+fruity,rose,FoodGeneric,FALSE,fruit family
+"fruity flower, iris",rose,FoodGeneric+Associative,FALSE,fruity/flower=FoodGeneric iris=Associative
+"fruity, berry",rose,FoodGeneric+FoodPersonal,FALSE,fruity=FoodGeneric berry=FoodPersonal
+"glue, sewage",rose,Associative,FALSE,non-food product associations
+lavendar,rose,Associative,FALSE,non-food personal product - not floral generic
+lavender,rose,Associative,FALSE,non-food personal product - not floral generic
+leather,rose,Associative,FALSE,non-food product association
+like vanilla/lavender,rose,FoodPersonal+Associative,FALSE,vanilla=FoodPersonal lavender=Associative
+lipstick,rose,Associative,FALSE,non-food product association
+melon,rose,FoodPersonal,FALSE,personal food association
+more pleasant minty fruity,rose,Valence+FoodGeneric,FALSE,valence pleasant + generic minty/fruity
+"nice smell, perfume, something like vanilla, banana",rose,Valence+Associative+FoodPersonal,FALSE,valence nice + associative perfume + food personal vanilla/banana
+no smell,rose,NoDetect,FALSE,not detected
+none,rose,NoDetect,FALSE,not detected
+orange,rose,FoodPersonal,TRUE,CONTEXT: FoodPersonal for rose - handle in R
+peppermint,rose,FoodPersonal,TRUE,CONTEXT: FoodPersonal for rose - handle in R
+perfume/flower,rose,Associative+FoodGeneric,FALSE,perfume=Associative flower=FoodGeneric
+pleasant familiar can't place it plaster,rose,Valence+Associative,FALSE,valence pleasant + associative plaster
+pleasant flower rose,rose,Source+Valence,FALSE,source rose + valence pleasant
+pleasant fruity familiar,rose,Valence+FoodGeneric,FALSE,valence pleasant + generic fruity
+rose,rose,Source,FALSE,correct
+rose but stronger than before,rose,Source,FALSE,modifier + correct term
+rose flower,rose,Source+FoodGeneric,FALSE,source rose + generic flower
+rose flowers,rose,Source+FoodGeneric,FALSE,source rose + generic flower
+rose horrible air freshener,rose,Source+Valence+Associative,FALSE,source rose + valence horrible + associative air freshener
+rose petal,rose,Source,FALSE,modifier + correct term
+rose petals,rose,Source,FALSE,modifier + correct term
+rose water,rose,Source,FALSE,modifier + correct term
+roses,rose,Source,FALSE,correct
+roses flowers,rose,Source+FoodGeneric,FALSE,source rose + generic flower
+rosewater,rose,Source,FALSE,correct
+shoe polish,rose,Associative,FALSE,non-food product association
+soap,rose,Associative,FALSE,non-food product association
+strong acid,rose,OdorQuality,FALSE,chemical quality descriptor
+sweet chocolately,rose,OdorQuality+FoodPersonal,FALSE,sweet=OdorQuality chocolatey=FoodPersonal
+"sweet smell, musk, lifesavers",rose,OdorQuality+FoodPersonal,FALSE,sweet/musk=OdorQuality lifesavers=FoodPersonal
+weak sweet,rose,OdorQuality,FALSE,intensity + quality descriptor
+wood,rose,Associative,FALSE,personal/environmental association
