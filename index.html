@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kara C. Hoover">
+<meta name="dcterms.date" content="2026-02-17">
+
+<title>Smelling in the Wild</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="index-olfaction_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index-olfaction_files/libs/quarto-html/quarto.js"></script>
+<script src="index-olfaction_files/libs/quarto-html/popper.min.js"></script>
+<script src="index-olfaction_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index-olfaction_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index-olfaction_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index-olfaction_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index-olfaction_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index-olfaction_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index-olfaction_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions">Research Questions</a></li>
+  <li><a href="#study-design" id="toc-study-design" class="nav-link" data-scroll-target="#study-design">Study Design</a></li>
+  <li><a href="#forced-choice-results" id="toc-forced-choice-results" class="nav-link" data-scroll-target="#forced-choice-results">Forced Choice Results</a>
+  <ul class="collapse">
+  <li><a href="#identification-accuracy" id="toc-identification-accuracy" class="nav-link" data-scroll-target="#identification-accuracy">Identification Accuracy</a></li>
+  <li><a href="#consistency" id="toc-consistency" class="nav-link" data-scroll-target="#consistency">Consistency</a></li>
+  <li><a href="#direction-of-change" id="toc-direction-of-change" class="nav-link" data-scroll-target="#direction-of-change">Direction of Change</a></li>
+  <li><a href="#oa-by-location" id="toc-oa-by-location" class="nav-link" data-scroll-target="#oa-by-location">OA by Location</a></li>
+  <li><a href="#oa-consistency-correlation" id="toc-oa-consistency-correlation" class="nav-link" data-scroll-target="#oa-consistency-correlation">OA-Consistency Correlation</a></li>
+  </ul></li>
+  <li><a href="#free-choice-results" id="toc-free-choice-results" class="nav-link" data-scroll-target="#free-choice-results">Free Choice Results</a>
+  <ul class="collapse">
+  <li><a href="#coding-scheme" id="toc-coding-scheme" class="nav-link" data-scroll-target="#coding-scheme">Coding Scheme</a></li>
+  <li><a href="#correspondence-analysis" id="toc-correspondence-analysis" class="nav-link" data-scroll-target="#correspondence-analysis">Correspondence Analysis</a></li>
+  <li><a href="#accuracy-binary-source-present" id="toc-accuracy-binary-source-present" class="nav-link" data-scroll-target="#accuracy-binary-source-present">Accuracy (Binary Source-Present)</a></li>
+  <li><a href="#consistency-1" id="toc-consistency-1" class="nav-link" data-scroll-target="#consistency-1">Consistency</a></li>
+  <li><a href="#oa-by-location-1" id="toc-oa-by-location-1" class="nav-link" data-scroll-target="#oa-by-location-1">OA by Location</a></li>
+  <li><a href="#direction-of-change-1" id="toc-direction-of-change-1" class="nav-link" data-scroll-target="#direction-of-change-1">Direction of Change</a></li>
+  <li><a href="#oa-consistency-correlation-1" id="toc-oa-consistency-correlation-1" class="nav-link" data-scroll-target="#oa-consistency-correlation-1">OA-Consistency Correlation</a></li>
+  </ul></li>
+  <li><a href="#free-choice-cain-analyses" id="toc-free-choice-cain-analyses" class="nav-link" data-scroll-target="#free-choice-cain-analyses">Free Choice Cain Analyses</a>
+  <ul class="collapse">
+  <li><a href="#key-finding-cain-captured-age" id="toc-key-finding-cain-captured-age" class="nav-link" data-scroll-target="#key-finding-cain-captured-age">Key Finding: Cain Captured Age</a></li>
+  <li><a href="#accuracy-multinomial-regression" id="toc-accuracy-multinomial-regression" class="nav-link" data-scroll-target="#accuracy-multinomial-regression">Accuracy (Multinomial Regression)</a></li>
+  <li><a href="#oa-by-location-weighted" id="toc-oa-by-location-weighted" class="nav-link" data-scroll-target="#oa-by-location-weighted">OA by Location (Weighted)</a></li>
+  <li><a href="#direction" id="toc-direction" class="nav-link" data-scroll-target="#direction">Direction</a></li>
+  <li><a href="#cain-vs-binary-comparison" id="toc-cain-vs-binary-comparison" class="nav-link" data-scroll-target="#cain-vs-binary-comparison">Cain vs Binary Comparison</a></li>
+  </ul></li>
+  <li><a href="#key-insights" id="toc-key-insights" class="nav-link" data-scroll-target="#key-insights">Key Insights</a></li>
+  <li><a href="#methods-summary" id="toc-methods-summary" class="nav-link" data-scroll-target="#methods-summary">Methods Summary</a></li>
+  <li><a href="#data-code" id="toc-data-code" class="nav-link" data-scroll-target="#data-code">Data &amp; Code</a></li>
+  <li><a href="#tools-technologies" id="toc-tools-technologies" class="nav-link" data-scroll-target="#tools-technologies">Tools &amp; Technologies</a></li>
+  <li><a href="#publication" id="toc-publication" class="nav-link" data-scroll-target="#publication">Publication</a></li>
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">Related Work</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Smelling in the Wild</h1>
+<p class="subtitle lead">Revisiting the paper: Field-testing olfactory ability to understand human olfactory ecology</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">olfaction</div>
+    <div class="quarto-category">field methods</div>
+    <div class="quarto-category">ecology</div>
+    <div class="quarto-category">sex differences</div>
+    <div class="quarto-category">reproducibility</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kara C. Hoover </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 17, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This project revisits data from a published field study testing olfactory ability (assessed via a five-odor identification test) in natural settings that contain odor mixtures (and a lab study that simulated the odor mixture natural setting. Data are from a field experiment of repeated measures at three London locations (Tate Modern/low odor, Southwark Bridge/polluted, Borough Market/food smells) to a controlled lab study (Clean/low odor and Smelly/simulated market with food smells. The odors tested were fish, garlic, orange, peppermint, and rose.</p>
+<p>The original study used the ‘diagnosis’ element of the five-odor test (poor, indeterminate, normal) as the metric for olfactory abillity. <strong>This analysis</strong> uses a binary estimate for the tests, a new correspondence analysis with a repeatable work flow, and the Cain method for free choice evaluation (correct, near miss, far miss, incorrect).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Published Work
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Hoover, K.C.</strong> (2020). Field-testing olfactory ability to understand human olfactory ecology. <em>American Journal of Human Biology</em>, 32(5), e23411.<br>
+DOI: <a href="https://doi.org/10.1002/ajhb.23411">10.1002/ajhb.23411</a></p>
+<p><strong>This repository</strong> contains the published paper, original data, and new reproducible R scripts that modernize the analysis workflow and add post-publication extensions.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="research-questions">Research Questions</h2>
+<ol type="1">
+<li>Does olfactory identification accuracy vary by odor or does accuracy of prior odor identification generalize to odor prediction? (accuracy/identification)</li>
+<li>Are people consistent in their odor descriptions across repeated exposures? (consistency)</li>
+<li>Does olfactory ability vary across Locations relative to pollution or food smells? (olfactory ability)</li>
+</ol>
+<hr>
+</section>
+<section id="study-design" class="level2">
+<h2 class="anchored" data-anchor-id="study-design">Study Design</h2>
+<p><strong>Field study (n=29):</strong> Participants smelt five odors at three London locations in sequence: - Tate Modern (neutral baseline) - Southwark Street (urban ambient odors, high level of pollution from car exhaust) - Borough Market (food-rich ambient odors)</p>
+<p><strong>Lab study (n=30):</strong> Participants smelt five odors in the lab under two conditions: - Clean (neutral air) - Smelly (ambient odor added to simulate a food market)</p>
+<p><strong>Tasks (both completed at each location):</strong> 1. <strong>Forced choice:</strong> Select odor name from a list 2. <strong>Free choice:</strong> Describe the odor in three words</p>
+<hr>
+</section>
+<section id="forced-choice-results" class="level2">
+<h2 class="anchored" data-anchor-id="forced-choice-results">Forced Choice Results</h2>
+<section id="identification-accuracy" class="level3">
+<h3 class="anchored" data-anchor-id="identification-accuracy">Identification Accuracy</h3>
+<p>Age and sex are known effects on olfactory ability that might mask environemntal effects. The differences between studies (different cohorts with different demogrpahic profiles, different conditions) may have a significant effect as well. Preliminary binomial GLMs confirmed <strong>sex and study context</strong> significantly predict accuracy (Sex OR=0.58, p=0.001; Study OR=1.45, p=0.028). Analyses is split by Study and Sex throughout.</p>
+<p>Identification rates varied significantly by odor in three of four groups: - Field females: χ²(4)=16, p=0.003 - Field males: Fisher’s p=0.0006 - Lab females: χ²(4)=11, p=0.022 - Lab males: non-significant (n=9, low power)</p>
+<p><img src="forced-accuracy.png" width="600"></p>
+<p><strong>Figure 1.</strong> Percent correctly identified by odor, faceted by Study × Sex. Fish was most reliably identified; orange was most difficult. Odor order based on field female accuracy (low to high).</p>
+</section>
+<section id="consistency" class="level3">
+<h3 class="anchored" data-anchor-id="consistency">Consistency</h3>
+<p>Consistency (using the same label every exposure) varied significantly only for field females (χ²(4)=18, p=0.001). Intraclass correlation (ICC) testing confirmed odors are independent (people consistent on one odor ≠ consistent on another), justifying per-odor analysis.</p>
+</section>
+<section id="direction-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="direction-of-change">Direction of Change</h3>
+<p>Rather than comparing means, I tracked how individual responses changed from Tate baseline:</p>
+<p><img src="forced-direction.png" width="600"></p>
+<p><strong>Figure 2.</strong> Direction of response change from Tate (field study only). Females maintained correct identifications more reliably (58-60% Confirmed correct); males showed more distraction (15-18%) and persistent errors (30% Still wrong). Both sexes flat between Southwark and Borough—consistent with <strong>learning at first non-Tate exposure</strong> rather than environment-specific priming.</p>
+</section>
+<section id="oa-by-location" class="level3">
+<h3 class="anchored" data-anchor-id="oa-by-location">OA by Location</h3>
+<p>No significant location effects emerged in forced choice olfactory ability scores (all p &gt; 0.16).</p>
+</section>
+<section id="oa-consistency-correlation" class="level3">
+<h3 class="anchored" data-anchor-id="oa-consistency-correlation">OA-Consistency Correlation</h3>
+<p>Higher olfactory ability associated with more consistent descriptions (pooled Kendall’s τ=0.70, p&lt;0.001). This held for all groups except <strong>field males</strong> (τ=0.38, p=0.12), whose OA and consistency decoupled—matching their higher distraction and error rates.</p>
+<hr>
+</section>
+</section>
+<section id="free-choice-results" class="level2">
+<h2 class="anchored" data-anchor-id="free-choice-results">Free Choice Results</h2>
+<section id="coding-scheme" class="level3">
+<h3 class="anchored" data-anchor-id="coding-scheme">Coding Scheme</h3>
+<p>Free-choice verbal responses (735 total) coded into eight categories:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Definition</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Source</strong></td>
+<td>Correct identification</td>
+<td>“fish”, “garlic”</td>
+</tr>
+<tr class="even">
+<td><strong>FoodGeneric</strong></td>
+<td>Taxonomic/botanical family</td>
+<td>“citrus”, “mint”</td>
+</tr>
+<tr class="odd">
+<td><strong>FoodPersonal</strong></td>
+<td>Cultural food association</td>
+<td>“Thai food”, “chips”</td>
+</tr>
+<tr class="even">
+<td><strong>OdorQuality</strong></td>
+<td>Sensory descriptor</td>
+<td>“sweet”, “pungent”</td>
+</tr>
+<tr class="odd">
+<td><strong>Associative</strong></td>
+<td>Product/place</td>
+<td>“perfume”, “garden”</td>
+</tr>
+<tr class="even">
+<td><strong>Valence</strong></td>
+<td>Affective</td>
+<td>“unpleasant”, “nice”</td>
+</tr>
+<tr class="odd">
+<td><strong>NoLabel</strong></td>
+<td>Detected but unnamed</td>
+<td>“something…”</td>
+</tr>
+<tr class="even">
+<td><strong>NoDetect</strong></td>
+<td>Not detected</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>35% of responses contained multiple codes (e.g., “Source+FoodPersonal”). Key decision: Source-present = correct, regardless of additional codes.</p>
+</section>
+<section id="correspondence-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="correspondence-analysis">Correspondence Analysis</h3>
+<p>CA on Odor × Code contingency table reveals the semantic structure across stimuli and provides insights into cognitive processing variation relative to specific odors:</p>
+<p><img src="free-ca.png" class="img-fluid" style="width:75.0%"></p>
+<p><strong>Figure 3.</strong> CA biplot (Dim1=63.3%, Dim2=22.1%). Dim1 separates easily-named odors (fish, garlic—Source-dominant) from category-level responses (peppermint, orange—FoodGeneric, NoLabel). Dim2 separates personal/associative (rose) from food-context (fish, garlic).</p>
+<p><strong>Odor stories:</strong> - <strong>Fish</strong> — directly named; no FoodGeneric because fish <em>is</em> the generic - <strong>Garlic</strong> — Source + FoodPersonal (Thai cuisine, savory cooking) - <strong>Orange</strong> — most semantically diverse (citrus family + food memories compete) - <strong>Peppermint</strong> — menthol family confusion (mint, spearmint, wintergreen) - <strong>Rose</strong> — most Associative (personal products, gardens); highest NoDetect</p>
+</section>
+<section id="accuracy-binary-source-present" class="level3">
+<h3 class="anchored" data-anchor-id="accuracy-binary-source-present">Accuracy (Binary Source-Present)</h3>
+<p>Both sexes showed significant odor variation (females χ²=17.4, p=0.002; males χ²=25.4, p&lt;0.001):</p>
+<p><img src="free-accuracy.png" width="600"></p>
+<p><strong>Figure 4.</strong> Free-choice accuracy (Source present) by sex. Females more uniform (47-75%); males wider spread (30-69%). Sex difference especially pronounced for rose—males rarely used Source language, consistent with rose’s high Associative loading.</p>
+</section>
+<section id="consistency-1" class="level3">
+<h3 class="anchored" data-anchor-id="consistency-1">Consistency</h3>
+<p>Free-choice consistency (sharing ≥1 code category across all exposures) showed no significant odor variation (field χ²=7.6, p=0.11; lab χ²=4.0, p=0.41). Lab participants more consistent overall (53-73% vs field 24-55%), matching significant Study effect in preliminary GLM.</p>
+<p><img src="free-consistency.png" width="600"></p>
+<p><strong>Figure 5.</strong> Free-choice consistency by Study. Lab’s controlled environment produces more consistent language regardless of odor. Orange hardest to be consistent about in field, matching its diverse CA profile.</p>
+</section>
+<section id="oa-by-location-1" class="level3">
+<h3 class="anchored" data-anchor-id="oa-by-location-1">OA by Location</h3>
+<p>Field females showed significant improvement at both Southwark and Borough (OR=2.81 for both, p=0.001):</p>
+<ul>
+<li><strong>Identical ORs</strong> indicate improvement happened at first non-Tate exposure</li>
+<li><strong>No further change</strong> at Borough despite food-rich environment</li>
+<li><strong>Flat Southwark→Borough pattern</strong> = learning not environmental priming</li>
+</ul>
+<p>Lab and field males showed no significant location effects.</p>
+</section>
+<section id="direction-of-change-1" class="level3">
+<h3 class="anchored" data-anchor-id="direction-of-change-1">Direction of Change</h3>
+<p><img src="free-direction.png" width="400"></p>
+<p><strong>Figure 6.</strong> Free-choice direction analysis (field only). Compared to forced choice, females show <em>more</em> Learned responses (29-32% vs 15-17%) and <em>less</em> Confirmed correct (38-40% vs 58-60%). Open responses allow more movement toward Source language. Males higher Still wrong (37-38% vs 30% forced)—forced-choice list guides males more than open description.</p>
+</section>
+<section id="oa-consistency-correlation-1" class="level3">
+<h3 class="anchored" data-anchor-id="oa-consistency-correlation-1">OA-Consistency Correlation</h3>
+<p>Weaker in free choice (τ=0.38, p=0.0001) than forced (τ=0.70). Only lab females significant (τ=0.41, p=0.021). Free choice decouples the two measures because open responses allow <strong>consistently wrong</strong> or <strong>inconsistently correct</strong> patterns impossible in forced choice.</p>
+<hr>
+</section>
+</section>
+<section id="free-choice-cain-analyses" class="level2">
+<h2 class="anchored" data-anchor-id="free-choice-cain-analyses">Free Choice Cain Analyses</h2>
+<p>To test whether Cain’s 4-level coding (correct, near miss, far miss, incorrect) provides additional sensitivity beyond binary Source-present, I reanalyzed free choice data using the standard olfaction research grading scheme.</p>
+<section id="key-finding-cain-captured-age" class="level3">
+<h3 class="anchored" data-anchor-id="key-finding-cain-captured-age">Key Finding: Cain Captured Age</h3>
+<p>Preliminary multinomial GLM showed <strong>Age significant</strong> with Cain coding but not with binary Source. This suggests 4-level granularity better detects age-related performance differences (older adults making more near/far miss errors vs outright incorrect).</p>
+</section>
+<section id="accuracy-multinomial-regression" class="level3">
+<h3 class="anchored" data-anchor-id="accuracy-multinomial-regression">Accuracy (Multinomial Regression)</h3>
+<p>Split by Study × Sex × Age to avoid covariate masking. All Under_50 groups showed significant odor variation (p &lt; 0.005); all 50+ groups non-significant due to small n and empty cells.</p>
+<p><img src="free-accuracy-cain.png" width="600"></p>
+<p><strong>Figure 7.</strong> Cain 4-level distribution by Sex × Odor. Stacked bars show progression from correct (bottom, dark blue) through near miss and far miss to incorrect (top, light gray). Ordinal structure visible.</p>
+</section>
+<section id="oa-by-location-weighted" class="level3">
+<h3 class="anchored" data-anchor-id="oa-by-location-weighted">OA by Location (Weighted)</h3>
+<p>Weighted OA (correct=1, near miss=0.67, far miss=0.33, incorrect=0) <strong>replicated binary findings exactly:</strong> field females improve at Southwark and Borough with identical ORs (2.17 and 2.03, both p &lt; 0.02).</p>
+</section>
+<section id="direction" class="level3">
+<h3 class="anchored" data-anchor-id="direction">Direction</h3>
+<p>Nearly identical to binary Source direction—both sexes flat Southwark to Borough.</p>
+</section>
+<section id="cain-vs-binary-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="cain-vs-binary-comparison">Cain vs Binary Comparison</h3>
+<p><strong>What Cain added:</strong> - Captured Age as significant (binary missed this) - More nuanced odor-level variation - Better demographic sensitivity</p>
+<p><strong>What stayed the same:</strong> - Odor variation significant for both sexes - Field females improve at first non-Tate exposure - Learning pattern dominates</p>
+<p><strong>Conclusion:</strong> Cain provides more sensitive demographic detection but <strong>converges to same substantive conclusions</strong>. The 4-level coding confirms rather than contradicts binary findings.</p>
+<hr>
+</section>
+</section>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">Key Insights</h2>
+<p><strong>Sex differences are robust.</strong> Females identify odors more accurately and maintain correct responses more reliably across both tasks and locations. This pattern holds in lab and field, suggesting a trait-level difference. This finding is unchanged from original publication.</p>
+<p><strong>Learning masks environmental effects.</strong> The design confounds location with order (Tate always first). Identical improvement at Southwark and Borough—visible in both binary and Cain analyses, across OA and direction metrics—indicates learning from exposure rather than environment-specific priming. To test environmental priming properly would require counterbalanced location order. This finding is unchanged from original publication, but the effect from Borough is not seen here as it was in the published paper, likely due to the use of a different metric.</p>
+<p><strong>Odor identity shapes language.</strong> Not all odors are equally nameable. Fish and garlic pull toward Source language; peppermint and rose toward categorical or personal associations. This reflects genuine differences in odor-concept mapping, not just difficulty. This finding has a more diverse set of tests to support it compared to published paper.</p>
+<p><strong>Lab produces more consistent language.</strong> Controlled environments reduce linguistic variability that real-world contexts introduce—important for olfactory research using verbal report. This finding has a more diverse set of tests to support it compared to published paper.</p>
+<p><strong>Task structure matters.</strong> Forced choice anchors correct responses more firmly (higher Confirmed correct). Free choice reveals more learning across locations (higher Learned) because response space is open. The two tasks tell a consistent story from different angles. The revisited analysis has revealed a more nuanced difference than the published paper.</p>
+<p><strong>Next directions.</strong> The failure of the study in the original publication and this re-analysis is the effect from learning. Since the effect of learning prevented the testing of the hypothesis that environmental will alter olfactory ability, retesting is highly recommended. - The literature supports the influence of pollution on olfactory ability. - The literature indicates the identification is more strongly tied to verbal ability than olfactory ability (but free choice and examining consistency will overcome this hurdle). - Protocol changes: 1. The five-odor test is useful as a quick diagnostic but perhaps not as robust in the field as a rapid discrimination test. 2. For repeated measures, testing at different locations on different days may overcome learning. 3. The choice of odors is important and should be consistent across repeated measures based on the findings that some odors are harder to identify than others and/or have greater semantic variation in free choice labels.</p>
+<hr>
+</section>
+<section id="methods-summary" class="level2">
+<h2 class="anchored" data-anchor-id="methods-summary">Methods Summary</h2>
+<p><strong>Participants:</strong> 59 total (29 field, 30 lab)<br>
+<strong>Odors:</strong> Fish, garlic, orange, peppermint, rose (Sniffin’ Sticks)</p>
+<p><strong>Statistical approach:</strong> - Preliminary GLMs (Sex + Age + Study) justify all split decisions - Chi-square/Fisher’s exact for odor-level variation - ICC (twoway, consistency) tests odor independence - Quasibinomial GLMs for OA by location - Kendall’s τ for OA-consistency correlation - Correspondence analysis (FactoMineR) on Odor × Code table - Multinomial logistic regression for Cain 4-level outcomes</p>
+<p><strong>Age</strong> not significant in binary analyses but captured by Cain 4-level coding.</p>
+<hr>
+</section>
+<section id="data-code" class="level2">
+<h2 class="anchored" data-anchor-id="data-code">Data &amp; Code</h2>
+<p><strong>Repository:</strong> <a href="https://github.com/kchoover14/Field-testing-olfactory-methods">github.com/kchoover14/Field-testing-olfactory-methods</a></p>
+<p><strong>Complete reproducible workflow:</strong> 1. <code>script-revised-clean.R</code> — Import, anonymize, create UIDs, long format 2. <code>script-revised-forced.R</code> — Forced choice: accuracy, consistency, OA, direction, correlation 3. <code>script-revised-free.R</code> — Free choice binary: CA, accuracy, consistency, OA, direction, correlation 4. <code>script-revised-free-cain.R</code> — Free choice Cain: multinomial accuracy, weighted OA, direction</p>
+<p><strong>Data files:</strong> - <code>data-forced.csv</code>, <code>data-free.csv</code> — cleaned data - <code>data-cain.xlsx</code> — Cain 4-level coding (100% inter-rater agreement) - <code>lookup-free-codes-final.csv</code> — free choice code categories (250 terms × odors)</p>
+<p><strong>All figures:</strong> 300dpi PNG</p>
+<hr>
+</section>
+<section id="tools-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="tools-technologies">Tools &amp; Technologies</h2>
+<ul>
+<li><strong>R</strong> for all analyses</li>
+<li><strong>Packages:</strong> dplyr, tidyr, stringr, readxl, broom, irr, ggplot2, scales, FactoMineR, factoextra, nnet, car</li>
+<li><strong>Models:</strong> Binomial/quasibinomial GLM, multinomial logistic regression, ICC, Kendall’s τ, CA</li>
+</ul>
+<hr>
+</section>
+<section id="publication" class="level2">
+<h2 class="anchored" data-anchor-id="publication">Publication</h2>
+<p><strong>Hoover, K.C.</strong> (2020). Field-testing olfactory ability to understand human olfactory ecology. <em>American Journal of Human Biology</em>, 32(5), e23411.<br>
+DOI: <a href="https://doi.org/10.1002/ajhb.23411">10.1002/ajhb.23411</a></p>
+<p><strong>This repository</strong> extends the published findings with: - Use of different scale for olfactory ability - Different approach to consistency analysis and correspondance analysis - Free-choice verbal description analysis (not in paper) - Cain 4-level coding comparison - Direction analysis tracking individual response changes</p>
+<hr>
+</section>
+<section id="related-work" class="level2">
+<h2 class="anchored" data-anchor-id="related-work">Related Work</h2>
+<p>Olfactory variation research: - <a href="https://doi.org/10.1016/j.isci.2022.105908">OldNoses: OR evolution across <em>Homo</em> (iScience 2023)</a> - OR7D4 global survey (<em>Chemical Senses</em>, 2015)</p>
+<hr>
+<p><em>Questions? Contact: kchoover@proton.me</em></p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
