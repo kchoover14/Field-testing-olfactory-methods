@@ -1,5 +1,6 @@
-# Field-testing-olfactory-methods
-Field-testing olfactory ability to understand human olfactory ecology
+Humans encounter odors in complex, multi-sensory environments – markets, streets, polluted air – yet olfactory research almost exclusively measures ability in controlled lab settings. Whether ambient odor context enhances or impairs identification, and whether lab performance predicts field performance, remains poorly understood. A key open question is whether environmental odor exposure (pollution, food smells) primes or disrupts olfactory ability in real-world settings. This project tests odor identification and verbal description across three London field locations with distinct ambient odor profiles – a neutral art museum, a polluted urban street, and a food market – and a paired controlled lab study replicating clean and food-rich conditions. Fifty-nine participants completed both forced choice identification and free verbal description of five odors at each location, allowing comparison of accuracy, consistency, and response change across settings. Sex and age effects were modeled before testing location effects, and multiple analytical frameworks were applied to assess robustness.
+
+# Publication: Field-testing olfactory ability to understand human olfactory ecology
 The data and scripts are deposited for use in replicating results of anaylsis for: Hoover KC, Roberts J, Botescu D, Piotr Fedurek, Aarts S, Berbesque JC. Field-testing olfactory ability to understand human olfactory ecology. American Journal of Human Biology. https://doi.org/10.1002/ajhb.23411 
 
 If using data or scripts for any purpose, please cite the above publication (which is also located in this repository).
