@@ -1,19 +1,21 @@
-## Smelling in the Wild
-Humans encounter odors in complex, multi-sensory environments – markets, streets, polluted air – yet olfactory research almost exclusively measures ability in controlled lab settings. Whether ambient odor context enhances or impairs identification, and whether lab performance predicts field performance, remains poorly understood. A key open question is whether environmental odor exposure (pollution, food smells) primes or disrupts olfactory ability in real-world settings. This project tests odor identification and verbal description across three London field locations with distinct ambient odor profiles – a neutral art museum, a polluted urban street, and a food market – and a paired controlled lab study replicating clean and food-rich conditions. Fifty-nine participants completed both forced choice identification and free verbal description of five odors at each location, allowing comparison of accuracy, consistency, and response change across settings. Sex and age effects were modeled before testing location effects, and multiple analytical frameworks were applied to assess robustness.
+## Odor Identification in Real-World Environments
+### Revisiting: Field-testing olfactory ability to understand human olfactory ecology
 
-The [webpage](https://kchoover14.github.io/Field-testing-olfactory-methods/) associated with this repository extends the published findings using different analytical approaches to test whether conclusions hold under alternative metrics: binary rather than diagnostic olfactory ability scoring; correspondence analysis with a reproducible workflow; free-choice verbal description analysis (not in paper); Cain four-level coding comparison; and direction analysis tracking individual response changes across locations.
+Olfactory research almost exclusively measures ability in controlled lab settings, yet humans encounter odors in complex, multi-sensory environments. This project revisits a published field study testing odor identification and verbal description across three London locations with distinct ambient odor profiles -- a neutral art museum, a polluted urban street, and a food market -- paired with a controlled lab replication. The reanalysis applies binary accuracy scoring, correspondence analysis, Cain four-level coding, and direction tracking to assess whether alternative analytical approaches change the conclusions. The dominant finding is a design problem, not a null result: repeated exposure within a single session confounds learning with environment, masking any true location effect.
 
-## Publication: Field-testing olfactory ability to understand human olfactory ecology
-The data and scripts are deposited for use in replicating results of anaylsis for: Hoover KC, Roberts J, Botescu D, Piotr Fedurek, Aarts S, Berbesque JC. Field-testing olfactory ability to understand human olfactory ecology. American Journal of Human Biology. https://doi.org/10.1002/ajhb.23411 
+### Tools & Technologies
 
-If using data or scripts for any purpose, please cite the above publication (which is also located in this repository).
+- **Languages:** R
+- **Packages:** `readxl`, `dplyr`, `tidyr`, `stringr`, `broom`, `ggplot2`, `scales`, `irr`, `skimr`, `FactoMineR`, `factoextra`, `nnet`, `car`
 
-data-raw data: these data derive from field data collection sheets and were processed to generate data-kappa and data-field methods
-data-kappa: these data (4 sheets) are tests for agreement between observers coding participant responses to odors
-data-field methods: these data (5 sheets) were used by the code for analysis in scripts 2-5
+### Demonstrates
 
-script1-kappa: this script calculates the kappa value for inter-observer agreement on coding responses to odor prompts
-script2-field: this script contains the code for the field data models (with and without random term), signed ranks test for location, Figures 1-2
-script3-lab: this script contains the code for the lab data models (with and without random term), signed ranks test for location, Figures 3-4
-script3-fieldlab: this script contains the code for Figure 5
-script4-consistency: this script contains the code for consistency test statistic W reported in 3.5 Consistency and Figure 6
+Designing and reanalyzing field studies that test real-world behavior; applying multiple analytical frameworks to assess robustness of findings; building reproducible workflows that extend and modernize published research.
+
+### Published Paper
+
+Hoover, K.C. (2020). Field-testing olfactory ability to understand human olfactory ecology. *American Journal of Human Biology*, 32(5), e23411. DOI: [10.1002/ajhb.23411](https://doi.org/10.1002/ajhb.23411)
+
+### Full Analysis
+
+For narrative, figures, study design, and methodology see the [portfolio page](https://kchoover14.github.io/smelling-in-the-wild/).
